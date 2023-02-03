@@ -6,7 +6,7 @@ import { useCookies } from 'react-cookie'
 
 import { Group } from '@/components'
 import { Button, ButtonLink, Certificate, Flag, Search, Switch, Text } from '@libellum-ds/react'
-import { MainLayout } from './layout/MainLayout'
+import { MainLayout } from '../layout/MainLayout'
 
 
 type FormSwitch = HTMLFormElement & {

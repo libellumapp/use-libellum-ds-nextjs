@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Certificate, Text } from '@libellum-ds/react'
-import { MainLayout } from './layout/MainLayout'
+import { MainLayout } from '../layout/MainLayout'
 
 export default function Home() {
   return (
