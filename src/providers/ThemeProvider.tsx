@@ -24,7 +24,7 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
             setCookie('theme', newTheme)
             return newTheme
         })
-    }, [])
+    }, [setCookie])
 
     const theme = useMemo(() => {
         return themeName === 'light' ? lightMode : darkMode
